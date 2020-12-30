@@ -1,0 +1,187 @@
+.li {
+  text-decoration: none;
+}
+
+.about {
+  margin: 2%;
+}
+
+.portfolio-card li {
+  list-style: none;
+}
+
+.about-text {
+  padding-right: 1%;
+  border-right: dotted rgba(255, 255, 255, 0.267) 0.5px;
+}
+
+.portfolio-card {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 1%;
+  flex-direction: column;
+}
+
+.portfolio {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+}
+.portfolio-container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  margin-top: 4%;
+  padding-bottom: 10%;
+  /* padding: 2%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card-links {
+  width: 100%;
+  border: dotted black 0.5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: dotted 0.5px;
+}
+
+.main-content {
+  background: #2d3447;
+}
+
+.tools-container i {
+  font-size: 3rem;
+  padding: 2%;
+  color: white;
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.experience {
+  text-align: center;
+}
+
+.experience-info {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: dashed grey 1px;
+  margin: 2%;
+  padding: 1%;
+  color: white;
+}
+
+.project-image {
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+}
+
+.nc-news {
+  display: flex;
+}
+
+.nc-news-web {
+  display: none;
+  margin: 2%;
+  align-self: center;
+  max-width: 80%;
+  min-width: 500px;
+  max-height: 100%;
+  border-radius: 5px;
+}
+
+.nc-news-mob {
+  padding: 1%;
+  max-width: 30%;
+  max-height: 80%;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 800px) {
+  .about {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+  }
+
+  .about-text {
+    /* margin: 2%; */
+    align-self: flex-start;
+    width: 40%;
+  }
+
+  .card-container {
+    flex-direction: row;
+  }
+
+  .portfolio-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-container#nc-news {
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .card-container#bookshare {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .tools-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+  }
+
+  .experience {
+    height: 100%;
+    justify-content: center;
+    align-self: flex-start;
+  }
+
+  .nc-news-web {
+    display: inline;
+    /* align-self: flex-start; */
+  }
+
+  .nc-news-mob {
+    display: none;
+  }
+  .tools {
+    align-self: flex-start;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}

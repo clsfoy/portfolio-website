@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap");
+
+.landing-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+}
+.perspective-text {
+  color: white;
+  font-family: Arial;
+  font-size: 3.2rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  text-align: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.perspective-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+p {
+  margin: 0;
+  line-height: 50px;
+  transition: all 0.5s ease-in-out;
+}
+
+.perspective-line:nth-child(1) {
+  background: #2d3447;
+  left: 29px;
+}
+
+.perspective-line:nth-child(2) {
+  left: 58px;
+  background: #f07e6e;
+}
+
+.perspective-line:nth-child(3) {
+  left: 87px;
+  background: #2d3447;
+}
+
+.perspective-line:nth-child(4) {
+  left: 116px;
+  background: #f07e6e;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.perspective-line:nth-child(5) {
+  left: 145px;
+}
+
+.landing-navs {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn {
+  margin: 3%;
+  color: white;
+  background: #2d3447;
+  padding: 10px 20px;
+  font-size: 12px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  border: none;
+  background: rgba(0, 0, 0, 0.4);
+  background: #fff;
+  padding: 20px 20px #000;
+  color: #1b1b1b;
+}

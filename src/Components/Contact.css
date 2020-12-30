@@ -1,0 +1,30 @@
+.contact-container {
+  /* height: 70vh; */
+  color: #d25b43;
+  margin: 1%;
+  padding-bottom: 5%;
+}
+
+.icons-container {
+  text-align: right;
+  width: 60%;
+  padding: 1%;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+
+.icons {
+  padding: 4%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+i {
+  font-size: 8vw;
+  color: white;
+}
+
+i:hover {
+  color: #2d3447;
+}
