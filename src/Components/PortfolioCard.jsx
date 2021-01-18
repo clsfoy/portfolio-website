@@ -97,8 +97,11 @@ const PortfolioCard = () => {
           <div className="nc-img-container">
             <img src={ncipad} alt="nc news ipad"></img>
             <div className="nc-btn">
-              <a href="https://charlie-nc-news.netlify.app/" className="btn-nc">
-                View GitHub
+              <a href="https://github.com/clsfoy/nc-news" className="btn-nc">
+                View GitHub - Frontend
+              </a>
+              <a href="https://github.com/clsfoy/be-nc-news" className="btn-nc">
+                View GitHub - Backend
               </a>
               <a href="https://charlie-nc-news.netlify.app/" className="btn-nc">
                 View on the web
