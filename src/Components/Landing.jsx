@@ -36,6 +36,9 @@ const Landing = () => {
         <Link to="contact">
           <p className="btn">Contact</p>
         </Link>
+        <a href="https://drive.google.com/file/d/1_KSnuIJCKORQOIJwmj7brwD59GvZoi11/view?usp=sharing">
+          <p className="btn">CV</p>
+        </a>
       </div>
     </div>
   );

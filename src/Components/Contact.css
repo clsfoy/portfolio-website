@@ -3,6 +3,8 @@
   color: #d25b43;
   margin: 1%;
   padding-bottom: 5%;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 2%;
 }
 
 .icons-container {
@@ -21,7 +23,7 @@
 }
 
 i {
-  font-size: 8vw;
+  font-size: 5vw;
   color: white;
 }
 

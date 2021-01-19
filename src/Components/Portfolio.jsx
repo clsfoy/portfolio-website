@@ -13,7 +13,7 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    // width: "90%",
+    width: "80%",
     margin: "0 auto",
     textAlign: "center",
   },
@@ -33,6 +33,10 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <div className="portfolio-container">
+        <div className="portfolio-header">
+          <h1>Portfolio</h1>
+        </div>
+
         <div className="treat-container">
           <Typography
             style={{
@@ -70,51 +74,46 @@ const Portfolio = () => {
               >
                 View GitHub - Frontend
               </a>
-              <div className={classes.root}>
-                <Accordion>
-                  <AccordionSummary
-                    style={{
-                      background: "#2d3447",
-                      color: "white",
-                      textAlign: "center",
-                    }}
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel1a-content"
-                    id="panel1a-header"
-                  >
-                    <Typography className={classes.heading}>
-                      More Info
-                    </Typography>
-                  </AccordionSummary>
-                  <AccordionDetails
-                    style={{ background: "#2d3447", color: "white" }}
-                  >
-                    <Typography>
-                      Treat Your Shelf is a book swapping app designed to
-                      encourage reading and facilitate sharing amongst local
-                      communities. <br></br>
-                      <br></br>Users can add their unused books to a virtual
-                      bookshelf through an ISBN barcode scanner, view available
-                      books in their area, then arrange a swap through an
-                      in-built messenger. <br></br>A key element of the project
-                      was using
-                      {""}
-                      <span> agile practices;</span> Kanban boards for planning,
-                      daily stand-ups, ‘mobbing’ on issues as a team and
-                      <span> pair-programming.</span> We implemented
-                      technologies not covered on the course, such as{" "}
-                      <span>React Hooks & Contexts</span>, React Webcam Barcode
-                      Scanner, Geocode,
-                      <span> Firebase Authentication & Firestore.</span>{" "}
-                      Firebase Authentication & Firestore. We designed a restful
-                      API with Express and Postgress.
-                    </Typography>
-                  </AccordionDetails>
-                </Accordion>
-              </div>
             </div>
           </div>
-
+          <div className={classes.root}>
+            <Accordion>
+              <AccordionSummary
+                style={{
+                  background: "#2d3447",
+                  color: "white",
+                  textAlign: "center",
+                }}
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel1a-content"
+                id="panel1a-header"
+              >
+                <Typography className={classes.heading}>More Info</Typography>
+              </AccordionSummary>
+              <AccordionDetails
+                style={{ background: "#2d3447", color: "white" }}
+              >
+                <Typography>
+                  Treat Your Shelf is a book swapping app designed to encourage
+                  reading and facilitate sharing amongst local communities.{" "}
+                  <br></br>
+                  <br></br>Users can add their unused books to a virtual
+                  bookshelf through an ISBN barcode scanner, view available
+                  books in their area, then arrange a swap through an in-built
+                  messenger. <br></br>A key element of the project was using
+                  {""}
+                  <span> agile practices;</span> Kanban boards for planning,
+                  daily stand-ups, ‘mobbing’ on issues as a team and
+                  <span> pair-programming.</span> We implemented technologies
+                  not covered on the course, such as{" "}
+                  <span>React Hooks & Contexts</span>, React Webcam Barcode
+                  Scanner, Geocode,
+                  <span> Firebase Authentication & Firestore.</span> We designed
+                  a restful API with Express and Postgress.
+                </Typography>
+              </AccordionDetails>
+            </Accordion>
+          </div>
           <div class="treat-img">
             <img src={logo} alt="book"></img>
             <img src={bookshelf} alt="bookshelf"></img>
