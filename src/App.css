@@ -320,6 +320,11 @@ span {
     filter: drop-shadow(3px 2px 4px #666666);
   }
 
+  .treat-git-btn {
+    /* display: flex; */
+    /* border: solid red; */
+  }
+
   .nc-img img {
     max-width: 40%;
     min-width: 150px;
