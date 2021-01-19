@@ -237,6 +237,14 @@ span {
   align-self: center;
 }
 
+.treat-git-btn {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (min-width: 800px) {
   .about {
     align-items: center;
@@ -323,6 +331,7 @@ span {
   .treat-git-btn {
     /* display: flex; */
     /* border: solid red; */
+    flex-direction: row;
   }
 
   .nc-img img {
