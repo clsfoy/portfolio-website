@@ -66,7 +66,10 @@ const PortfolioCard = () => {
               <a href="https://github.com/clsfoy/nc-news" className="btn-nc">
                 View GitHub - Frontend
               </a>
-              <a href="https://github.com/clsfoy/be-nc-news" className="btn-nc">
+              <a
+                href="https://github.com/clsfoy/nc-news-be.git"
+                className="btn-nc"
+              >
                 View GitHub - Backend
               </a>
               <a href="https://charlie-nc-news.netlify.app/" className="btn-nc">
