@@ -11,7 +11,12 @@ import {
 const Landing = () => {
   return (
     <div className="landing-container">
-      <div class="perspective-text">
+      <div
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos="fade-in"
+        class="perspective-text"
+      >
         <div class="perspective-line">
           <p>Charlie Foy</p>
         </div>
@@ -26,7 +31,13 @@ const Landing = () => {
         </div>
       </div>
 
-      <div className="landing-navs">
+      <div
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos="fade-in"
+        data-aos-delay="200"
+        className="landing-navs"
+      >
         <Link to="about">
           <p className="btn">About</p>
         </Link>

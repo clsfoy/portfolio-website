@@ -58,8 +58,8 @@ const PortfolioCard = () => {
 
           <div className="nc-img-container">
             <div className="nc-ipad-img">
-              <img src={ncipad} alt="nc news ipad"></img>
-              <img src={ncipad2} alt="nc news ipad"></img>
+              <img data-aos="zoom-in" src={ncipad} alt="nc news ipad"></img>
+              <img data-aos="zoom-in" src={ncipad2} alt="nc news ipad"></img>
             </div>
 
             <div className="nc-btn">

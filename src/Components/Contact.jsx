@@ -3,7 +3,12 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <section id="contact">
-      <div className="contact-container">
+      <div
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos="fade-in"
+        className="contact-container"
+      >
         <h3>Find me here...</h3>
         <div className="icons-container">
           <div className="icons">

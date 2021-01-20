@@ -18,12 +18,12 @@ const useStyles = makeStyles({
 const About = () => {
   const classes = useStyles();
   return (
-    <div className="about">
+    <div data-aos="fade-up" className="about">
       <div className="about-text">
         <Typography style={{ color: "#d25b43" }} variant="h4">
           About
         </Typography>
-        <Typography style={{ color: "white" }} variant="body1">
+        <Typography style={{ color: "white", width: "100%" }} variant="body1">
           Hi! My name is Charlie, and I'm a junior full-stack software developer
           based in Manchester, UK. <br></br>
           <br></br>I started my coding journey in August 2020, and having been

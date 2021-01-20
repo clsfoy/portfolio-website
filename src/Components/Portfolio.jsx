@@ -115,10 +115,30 @@ const Portfolio = () => {
             </Accordion>
           </div>
           <div class="treat-img">
-            <img src={logo} alt="book"></img>
-            <img src={bookshelf} alt="bookshelf"></img>
-            <img src={book} alt="bookshelf"></img>
-            <img src={messages2} alt="bookshelf"></img>
+            <img
+              data-aos-delay="700"
+              data-aos="fade-right"
+              src={logo}
+              alt="book"
+            ></img>
+            <img
+              data-aos-delay="500"
+              data-aos="fade-right"
+              src={bookshelf}
+              alt="bookshelf"
+            ></img>
+            <img
+              data-aos-delay="300"
+              data-aos="fade-right"
+              src={book}
+              alt="bookshelf"
+            ></img>
+            <img
+              data-aos-delay="100"
+              data-aos="fade-right"
+              src={messages2}
+              alt="bookshelf"
+            ></img>
           </div>
         </div>
         <div className="separator"></div>
